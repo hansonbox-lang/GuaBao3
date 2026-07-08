@@ -56,3 +56,5 @@ src/main/java
  │    └── DbUtil.java          - 資料庫連接管理 (Connection Pool/Driver)
  └── exception             # 自訂異常處理
       └── GuaBaoException.java - 系統業務自訂異常類別
+
+[點我前往 GuaBao3 專案](https://github.com/hansonbox-lang/GuaBao3#)
