@@ -2,6 +2,8 @@
 
 本專案是一套專為割包店設計的 **POS 前台點餐系統** 與 **後台員工資料維護系統**。系統基於 Java Swing 進行視窗介面開發，並嚴格遵循標準的 **MVC + DAO (Model-View-Controller + Data Access Object) 建築模式** 進行分層設計，透過 Maven 進行專案依賴管理，核心資料庫則採用 MySQL。
 
+[點我前往 GuaBao3 專案](https://github.com/hansonbox-lang/GuaBao3#)
+
 ## 🌟 系統三大核心視窗功能
 
 1. **員工登入視窗 (`GuaBao3` - LOGIN_CARD)**
@@ -56,5 +58,3 @@ src/main/java
  │    └── DbUtil.java          - 資料庫連接管理 (Connection Pool/Driver)
  └── exception             # 自訂異常處理
       └── GuaBaoException.java - 系統業務自訂異常類別
-
-[點我前往 GuaBao3 專案](https://github.com/hansonbox-lang/GuaBao3#)
